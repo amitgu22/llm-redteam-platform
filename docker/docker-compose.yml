@@ -7,6 +7,6 @@ services:
     volumes:
       - .:/app
     environment:
-      - OPENAI_API_KEY=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
+      #- OPENAI_API_KEY=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
       #- ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     tty: true
