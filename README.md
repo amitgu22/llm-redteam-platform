@@ -19,3 +19,10 @@
    ```bash
    git clone https://github.com/amitgu22/llm-redteam-platform.git
    cd llm-redteam-platform
+
+
+   docker run -d \
+  -p 8080:8080 \
+  -p 50000:50000 \
+  --name jenkins \
+  jenkins/jenkins:lts
