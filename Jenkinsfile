@@ -14,7 +14,9 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-repo/llm-redteam-platform.git'
+                git branch: 'main',
+                credentialsId: 'github-token',
+                url: 'https://github.com/amitgu22/llm-redteam-platform.git'
             }
         }
 
