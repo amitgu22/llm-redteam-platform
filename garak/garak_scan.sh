@@ -1,0 +1,1 @@
+garak --model openai:gpt-4 --probes all

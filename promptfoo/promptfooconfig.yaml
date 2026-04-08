@@ -1,0 +1,9 @@
+providers:
+  - openai:gpt-4
+  #- anthropic:claude-3
+
+tests:
+  - file://attacks/injection.yaml
+  - file://attacks/jailbreak.yaml
+
+outputPath: ../reports/promptfoo.html
