@@ -28,3 +28,8 @@ docker run -d \
   -v jenkins_home:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
   docker:dind
+
+
+
+
+  <img width="1750" height="871" alt="image" src="https://github.com/user-attachments/assets/5b3c2976-a15a-4780-bbd7-31bdf4a09cc7" />
