@@ -1,8 +1,9 @@
-# llm-redteam-platform
+
 
 # llm-redteam-platform
 
 `llm-redteam-platform` is a project for building and managing red team workflows against large language models. It helps teams create adversarial scenarios, run tests, and review model behavior under attack-style prompts and edge cases.
+Dockerized ready to run locally , saves python environment configuration and can focus on main task -- attacking, exploiting.. 
 
 ## Features
 
@@ -10,7 +11,7 @@
 - Create adversarial prompt suites and test cases
 - Execute evaluations against LLM endpoints
 - Track results, findings, and remediation actions
-- Generate reports for model safety and robustness assessments
+- Generate reports for model safety and robustness assessments (to be done)
 
 ## Getting Started
 
